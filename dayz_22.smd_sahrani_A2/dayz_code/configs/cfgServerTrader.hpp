@@ -3,12 +3,21 @@ class CfgTradercategory {
 	#include "category\BlackMarketArmor.hpp"
 	#include "category\BlackMarketHelicopter.hpp"
 	#include "category\BlackMarketSupport.hpp"
+	#include "category\special Collection.hpp"	
 	#include "category\Gnomedepot.hpp"
 	#include "category\Warships.hpp"
 	
 	#include "category\hero\hero2helicopterarmed.hpp"
 	#include "category\hero\hero2militaryarmed.hpp"
 	#include "category\hero\Hero2trucksarmed.hpp"
+	#include "category\hero\hero2ammunition.hpp"
+	#include "category\hero\Hero2weapons.hpp"
+	
+	#include "category\hero\hero3helicopterarmed.hpp"
+	#include "category\hero\hero3militaryarmed.hpp"
+	#include "category\hero\Hero3trucksarmed.hpp"	
+	#include "category\hero\hero3ammunition.hpp"
+	#include "category\hero\Hero3weapons.hpp"	
 	
 	#include "category\hero\Ammunition.hpp"
 	#include "category\hero\Clothes.hpp"
