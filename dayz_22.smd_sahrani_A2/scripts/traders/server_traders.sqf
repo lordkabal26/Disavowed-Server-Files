@@ -176,13 +176,13 @@ menu_GUE_Woodlander2 = [
 ];
 // Black market weapons and ammo
 menu_RU_Sportswoman5 = [
-	[["Attachments",693],["Currency and gems",1100],["Black Market Ammo",527],["Black Market Weapons",526],["Explosives",529]],
+	[["Attachments",693],["Currency and gems",1100],["Black Market Weapons",526],["Black Market Ammo",527],["Explosives",529]],
 	[],
 	"neutral"
 ];
 // Black market vehicles
 menu_RU_Sportswoman3 = [
-	[["Support Vehicles",803],["AirCraft",801],["Helicopters",802],["Armored Vehicles",800]],
+	[["Armored Vehicles",800],["AirCraft",801],["Helicopters",802],["Support Vehicles",803],["Special Collection",805]],
 	[],
 	"neutral"
 ];
@@ -194,13 +194,13 @@ menu_PRACS_Naval_Crew = [
 ];
 // Hero Rank 2
 menu_SMD_SLA_MP_URBAN = [
-	[["Armed Helicopter",807],["Military Armed",808],["Trucks Armed",806]],
+	[["Trucks Armed",806],["Armed Helicopter",807],["Military Armed",808],["FFAA Weapons",809],["FFAA Ammo",810],],
 	[],
 	"neutral"
 ];
 // Hero Rank 3
 menu_SMD_SLA_SWAT_URBAN = [
-	[["Armed Helicopter",807],["Military Armed",808],["Trucks Armed",806]],
+	[["Trucks Armed",811],["Armed Helicopter",812],["Military Armed",813],["SPecial Weapons",814],["Special Ammo",815]],
 	[],
 	"neutral"
 ];
