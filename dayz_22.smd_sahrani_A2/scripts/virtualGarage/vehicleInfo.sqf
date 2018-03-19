@@ -92,12 +92,12 @@ _formattedText = format [
 	_backPackCount
 ];
 
-if (_localVehicle) then {_formattedText = _formattedText + format ["<t color='#33BFFF' size='0.7'>%1: </t><t color='#ffffff' size='0.7'>%2</t><br />",localize "STR_VG_PRICE",_price];};
+if (_localVehicle) then {_formattedText = _formattedText + format ["<t color='#33BFFF' size='0.7'>%1: </t><t color='#ffffff' size='0.7'>%2</t><br />",localize "STR_CL_VG_PRICE",_price];};
 if (!_localVehicle) then {
 	if (_DateStored != "old") then {
-		_formattedText = _formattedText + format ["<t color='#33BFFF' size='0.7'>%1: </t><t color='#ffffff' size='0.7'>%2</t><br />",localize "STR_VG_STOREDATE",_DateStored];
+		_formattedText = _formattedText + format ["<t color='#33BFFF' size='0.7'>%1: </t><t color='#ffffff' size='0.7'>%2</t><br />",localize "STR_CL_VG_STOREDATE",_DateStored];
 	} else {
-		_formattedText = _formattedText + format ["<t color='#33BFFF' size='0.7'>%1: </t><t color='#ffffff' size='0.7'>%2</t><br />",localize "STR_VG_STOREDATE",localize "STR_VG_STOREDATE_INVALID"];
+		_formattedText = _formattedText + format ["<t color='#33BFFF' size='0.7'>%1: </t><t color='#ffffff' size='0.7'>%2</t><br />",localize "STR_CL_VG_STOREDATE",localize "STR_CL_VG_STOREDATE_INVALID"];
 	};
 };
 
