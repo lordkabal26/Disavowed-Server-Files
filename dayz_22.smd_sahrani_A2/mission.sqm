@@ -1,0 +1,548 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"smd_sahrani_a2",
+		"smd_assets",
+		"smd_units",
+		"aif_arma1buildings",
+		"map_eu",
+		"ca_modules_animals",
+		"dayz_anim",
+		"dayz_code",
+		"dayz_communityassets",
+		"dayz_weapons",
+		"dayz_equip",
+		"cacharacters_pmc",
+		"ca_modules_functions",
+		"zero_buildings",
+		"glt_m300t",
+		"csj_gyroac",
+		"jetskiyanahuiaddon",
+		"pook_h13",
+		"redryder",
+		"Anzio_20",
+		
+		"arma1_sf_port_patch",
+		"gms_k98",
+		"RH_m14",
+		"FHQ_Remington",
+		"FHQ_Remington_ammo",
+		"FHQ_Remington_msr",
+		"FHQ_Remington_xm2010",
+		"FHQ_Remington_acr",
+		"FHQ_Remington_rsass",
+		"VILAS_WWP",
+		"VILAS_RW_Forces",
+		"VILAS_WWP_CO",
+		"VILAS_RW_Forces_CO",
+		"ddopp_taserpack",
+		"smk_anims_lite",
+		"MicroAirVehicles",
+		"oz_is_objects",
+		"monaro",
+		"gsc_units_stalker_patch",
+		"american_law_enforcement",
+		"CYBP_Camels_Config",
+		"nissan_350z",
+		"ussr_cheytac",
+		"bb_mercenary",
+		"goosuksf",
+		"frb",
+		"sbh_paranoia",
+		
+		"int73_c1a",
+		"yup_usarmy_blackhawks",
+		"gntfrigates",
+		"gntweapons",
+		"ori_dc3",
+		"pracs_truck",
+		"pracs_tracked",
+		"pracs_wheeled",
+		"jeep",
+		"dpv",
+		"mcn_vehicles",
+		"sa_cbu",
+		"daf_bam",
+		"daf_p72",
+		"daf_bmw",
+		"ffspziii",
+		"gtr_r34",
+		"pracs_aheli",
+		"pracs_heli",
+		"pracs_c130",
+		"pracs_mohawk",
+		"pracs_boat",
+		"oldtruck",
+		"monaco",
+		"roadrunner",
+		"roadrunner2",
+		"440cuda",
+		"cuda",
+		"barcuda",
+		"hemicuda",
+		"cd71hm",
+		"oltruc3",
+		"fury",
+		"sahco",
+		"civic",
+		"challenger",
+		"cooter",
+		"jailbus",
+		"mackr",
+		"240gd",
+		"schoolbus",
+		"rosco",
+		"oldtruc2",
+		"mbg_killhouses",
+		"usec_rig_a",
+		"gq_minigun",
+		"c1987_mp7",
+		"ffaa_armas",
+		"savanna",
+		"daf_ammobox",
+		"daf_m113",
+		"pook_camonets",
+		"rh_smg",
+		"rh_m14",
+		"sportvehicles",
+		"ffs_bf109",
+		"zerosenj"
+	};
+	addOnsAuto[]=
+	{
+		"dayz_weapons",
+		"ca_modules_functions",
+		"smd_sahrani_a2"
+	};
+	randomSeed=11171215;
+	class Intel
+	{
+		briefingName="DayZ Epoch SMD Sahrani";
+		briefingDescription="Version 1.0.6.2";
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=1;
+		hour=12;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=100;
+#define PLRDEF position[]={12001,0,-4596};azimut=0;side="WEST";vehicle="Survivor1_DZ";skill=0.6;init="this enableSimulation false;this allowDamage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";player="PLAY CDG";
+				class Item0{id=0;PLRDEF};
+				class Item1
+				{
+					position[]={12001,0,-4596};
+					azimut=0;
+					id=0;
+					side="WEST";
+					vehicle="Survivor1_DZ";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.6;
+					init="this enableSimulation false;this allowDamage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";
+				};
+				class Item2{id=2;PLRDEF};
+				class Item3{id=3;PLRDEF};
+				class Item4{id=4;PLRDEF};
+				class Item5{id=5;PLRDEF};
+				class Item6{id=6;PLRDEF};
+				class Item7{id=7;PLRDEF};
+				class Item8{id=8;PLRDEF};
+				class Item9{id=9;PLRDEF};
+				class Item10{id=10;PLRDEF};
+				class Item11{id=11;PLRDEF};
+				class Item12{id=12;PLRDEF};
+				class Item13{id=13;PLRDEF};
+				class Item14{id=14;PLRDEF};
+				class Item15{id=15;PLRDEF};
+				class Item16{id=16;PLRDEF};
+				class Item17{id=17;PLRDEF};
+				class Item18{id=18;PLRDEF};
+				class Item19{id=19;PLRDEF};
+				class Item20{id=20;PLRDEF};
+				class Item21{id=21;PLRDEF};
+				class Item22{id=22;PLRDEF};
+				class Item23{id=23;PLRDEF};
+				class Item24{id=24;PLRDEF};
+				class Item25{id=25;PLRDEF};
+				class Item26{id=26;PLRDEF};
+				class Item27{id=27;PLRDEF};
+				class Item28{id=28;PLRDEF};
+				class Item29{id=29;PLRDEF};
+				class Item30{id=30;PLRDEF};
+				class Item31{id=31;PLRDEF};
+				class Item32{id=32;PLRDEF};
+				class Item33{id=33;PLRDEF};
+				class Item34{id=34;PLRDEF};
+				class Item35{id=35;PLRDEF};
+				class Item36{id=36;PLRDEF};
+				class Item37{id=37;PLRDEF};
+				class Item38{id=38;PLRDEF};
+				class Item39{id=39;PLRDEF};
+				class Item40{id=40;PLRDEF};
+				class Item41{id=41;PLRDEF};
+				class Item42{id=42;PLRDEF};
+				class Item43{id=43;PLRDEF};
+				class Item44{id=44;PLRDEF};
+				class Item45{id=45;PLRDEF};
+				class Item46{id=46;PLRDEF};
+				class Item47{id=47;PLRDEF};
+				class Item48{id=48;PLRDEF};
+				class Item49{id=49;PLRDEF};
+				class Item50{id=50;PLRDEF};
+				class Item51{id=51;PLRDEF};
+				class Item52{id=52;PLRDEF};
+				class Item53{id=53;PLRDEF};
+				class Item54{id=54;PLRDEF};
+				class Item55{id=55;PLRDEF};
+				class Item56{id=56;PLRDEF};
+				class Item57{id=57;PLRDEF};
+				class Item58{id=58;PLRDEF};
+				class Item59{id=59;PLRDEF};
+				class Item60{id=60;PLRDEF};
+				class Item61{id=61;PLRDEF};
+				class Item62{id=62;PLRDEF};
+				class Item63{id=63;PLRDEF};
+				class Item64{id=64;PLRDEF};
+				class Item65{id=65;PLRDEF};
+				class Item66{id=66;PLRDEF};
+				class Item67{id=67;PLRDEF};
+				class Item68{id=68;PLRDEF};
+				class Item69{id=69;PLRDEF};
+				class Item70{id=70;PLRDEF};
+				class Item71{id=71;PLRDEF};
+				class Item72{id=72;PLRDEF};
+				class Item73{id=73;PLRDEF};
+				class Item74{id=74;PLRDEF};
+				class Item75{id=75;PLRDEF};
+				class Item76{id=76;PLRDEF};
+				class Item77{id=77;PLRDEF};
+				class Item78{id=78;PLRDEF};
+				class Item79{id=79;PLRDEF};
+				class Item80{id=80;PLRDEF};
+				class Item81{id=81;PLRDEF};
+				class Item82{id=82;PLRDEF};
+				class Item83{id=83;PLRDEF};
+				class Item84{id=84;PLRDEF};
+				class Item85{id=85;PLRDEF};
+				class Item86{id=86;PLRDEF};
+				class Item87{id=87;PLRDEF};
+				class Item88{id=88;PLRDEF};
+				class Item89{id=89;PLRDEF};
+				class Item90{id=90;PLRDEF};
+				class Item91{id=91;PLRDEF};
+				class Item92{id=92;PLRDEF};
+				class Item93{id=93;PLRDEF};
+				class Item94{id=94;PLRDEF};
+				class Item95{id=95;PLRDEF};
+				class Item96{id=96;PLRDEF};
+				class Item97{id=97;PLRDEF};
+				class Item98{id=98;PLRDEF};
+				class Item99{id=99;PLRDEF};
+				class Item100{id=100;PLRDEF};
+				class Item101{id=101;PLRDEF};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-144,0,2320};
+					id=50;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.6;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=20;
+		class Item0
+		{
+			position[]={10442,86,10438};
+			name="center";
+			type="Empty";
+			a=6000;b=6000;
+		};
+		class Item1
+		{
+			position[]={12000,0,-4595};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={11303,4,4898};
+			name="spawn0";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={7517,1,6234};
+			name="spawn1";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={13580,0,7727};
+			name="spawn2";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={13288,3,10559};
+			name="spawn3";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={16810,3,9417};
+			name="spawn4";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={10442,86,10438};
+			name="crashsites";
+			type="Empty";
+			a=6000;b=6000;
+		};
+		class Item8
+		{
+			position[]={10442,86,10438};
+			name="carepackages";
+			type="Empty";
+			a=6000;b=0;
+		};
+		class Item9
+		{
+			position[]={10273,0,7382};
+			name="Tradercitycorazol";
+			text="Trader City Corazol";
+			type="Depot";
+			colorName="ColorBlack";
+		};
+		class Item10
+		{
+			position[]={13574,3,8677};
+			name="wholesaleSouth";
+			text="Wholesaler";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item11
+		{
+			position[]={11453,4,5418};
+			name="boatTraderEast";
+			text="Wholesaler";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item12
+		{
+			position[]={19237,4,13592};
+			name="BoatDealerSouth";
+			text="Boat Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item13
+		{
+			position[]={9911,139,10010};
+			name="AirVehicles";
+			text="Aircraft Dealer";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item14
+		{
+			position[]={6414,57,7461};
+			name="BanditDen";
+			text="Bandit Camp";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item15
+		{
+			position[]={17186,40,13596};
+			name="Ixel";
+			text="Trader City Ixel";
+			type="Depot";
+			colorName="ColorBlack";
+		};
+		class Item16
+		{
+			position[]={13434,2,6888};
+			name="BoatDealerEast";
+			text="Boat Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item17
+		{
+			position[]={14273,41,12408};
+			name="TradercityBag";
+			text="Trader City Bagazhar";
+			type="Depot";
+			colorName="ColorBlack";
+		};
+		class Item18
+		{
+			position[]={17270,14,9570};
+			name="HeroTrader";
+			text="Hero Camp";
+			type="mil_dot";
+			colorName="ColorBlue";
+		};
+		class Item19
+		{
+			position[]={18082,0,18187};
+			name="BlackMarket";
+			text="Black Market Camp Coven";
+			type="Depot";
+			colorName="ColorOrange";
+		};
+		class Item100
+		{
+			position[]={17270,14,9570};
+			name="HeroTrader2";
+			text="Hero Rank 2";
+			type="Camp";
+			colorName="ColorBlue";
+		};
+		class Item101
+		{
+			position[]={17270,14,9570};
+			name="HeroTrader3";
+			text="Hero Rank 3 Camp Chimera";
+			type="Depot";
+			colorName="ColorBlue";
+		};		
+	};
+	class Sensors
+	{
+		items=4;
+#define TRGDEF a=100;b=100;activationBy="WEST";repeating=1;interruptable=1;age="UNKNOWN";class Effects{};
+		class Item0
+		{
+			position[]={10273,0,7382};
+			TRGDEF
+			name="zone3";
+			expCond="(player distance zone3) < 100;";
+			expActiv="[""trader city Corazol"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""trader city Corazol"",true,""leave""] call player_traderCity;";
+		};
+		class Item1
+		{
+			position[]={14274,40,12408};
+			TRGDEF
+			name="zone2";
+			expCond="(player distance zone2) < 100;";
+			expActiv="[""trader city Bagazhar"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""trader city Bagazhar"",true,""leave""] call player_traderCity;";
+		};
+		class Item2
+		{
+			position[]={17182,40,13597};
+			TRGDEF
+			name="zone1";
+			expCond="(player distance zone1) < 100;";
+			expActiv="[""trader city Ixel"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""trader city Ixel"",true,""leave""] call player_traderCity;";
+		};
+		class Item3
+		{
+			position[]={13241,25,11188};
+			TRGDEF
+			name="bmarket";
+			expCond="(player distance bmarket) < 50;";
+			expActiv="[""Black Market"",true,""enter""] call player_traderCity;";
+			expDesactiv="[""Black Market"",true,""leave""] call player_traderCity;";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"smd_sahrani_a2"
+	};
+	addOnsAuto[]=
+	{
+		"smd_sahrani_a2"
+	};
+	randomSeed=6913869;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"smd_sahrani_a2"
+	};
+	addOnsAuto[]=
+	{
+		"smd_sahrani_a2"
+	};
+	randomSeed=4081731;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"smd_sahrani_a2"
+	};
+	addOnsAuto[]=
+	{
+		"smd_sahrani_a2"
+	};
+	randomSeed=4975929;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
