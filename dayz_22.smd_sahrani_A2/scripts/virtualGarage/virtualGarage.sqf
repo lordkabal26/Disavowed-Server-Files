@@ -48,7 +48,7 @@ if (count _heliPad > 0 && (_plotCheck select 1) > 0) then {ctrlShow[2853,true];}
 _control = ((findDisplay 2800) displayCtrl 2802);
 lbClear _control;
 
-if (count _storedVehicles == 0 && {isNull DZE_myVehicle || {!(alive DZE_myVehicle)} || {!(local DZE_myVehicle)}}) exitWith {ctrlSetText[2811,localize "STR_VG_NO_VEHICLES"];};
+if (count _storedVehicles == 0 && {isNull DZE_myVehicle || {!(alive DZE_myVehicle)} || {!(local DZE_myVehicle)}}) exitWith {ctrlSetText[2811,localize "STR_CL_VG_NO_VEHICLES"];};
 
 vg_vehicleList = [];
 
@@ -73,4 +73,4 @@ vg_vehicleList = [];
 ctrlShow[2810,false];
 ctrlShow[2811,false];
 
-ctrlSetText [2804, format ["%1 (%2 %3)",localize "STR_VG_YOUR_VEHICLES",count (_storedVehicles),localize "STR_VG_VEHICLES"]];
+ctrlSetText [2804, format ["%1 (%2 %3)",localize "STR_CL_VG_YOUR_VEHICLES",count (_storedVehicles),localize "STR_CL_VG_VEHICLES"]];
