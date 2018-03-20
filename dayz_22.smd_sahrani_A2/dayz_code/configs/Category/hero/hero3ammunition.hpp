@@ -1,4 +1,4 @@
-class Category_814 {
+class Category_815 {
 	class RH_45ACP_30RND_Mag  {
 		type = "trade_items";
 		buy[] = {2000,"worth"};
@@ -50,11 +50,6 @@ class Category_814 {
 		sell[] = {1000,"worth"};
 	};
 	class RH_57x28mm_50RND_SD_Mag    {
-		type = "trade_items";
-		buy[] = {2000,"worth"};
-		sell[] = {1000,"worth"};
-	};
-	class RH_9mm_32RND_Mag    {
 		type = "trade_items";
 		buy[] = {2000,"worth"};
 		sell[] = {1000,"worth"};

@@ -1,4 +1,4 @@
-class Category_815 {
+class Category_813 {
 	class PRACS_FV101 {
 		type = "trade_any_vehicle";
 		buy[] ={100000,"Coins"};

@@ -24,7 +24,7 @@ class Category_810 {
 		buy[] = {2000,"worth"};
 		sell[] = {1000,"worth"};
 	};
-	class 30Rnd_556x45_G36 {
+	class 30Rnd_556x45_G36SD {
 		type = "trade_items";
 		buy[] = {2000,"worth"};
 		sell[] = {1000,"worth"};
@@ -34,7 +34,7 @@ class Category_810 {
 		buy[] = {2000,"worth"};
 		sell[] = {1000,"worth"};
 	};
-	class (FFAA_556x45_CedmeL {
+	class FFAA_556x45_CedmeL {
 		type = "trade_items";
 		buy[] = {2000,"worth"};
 		sell[] = {1000,"worth"};
@@ -54,7 +54,7 @@ class Category_810 {
 		buy[] = {2000,"worth"};
 		sell[] = {1000,"worth"};
 	};	
-	class ((FFAA_556x45_FNFal {
+	class FFAA_556x45_FNFal {
 		type = "trade_items";
 		buy[] = {2000,"worth"};
 		sell[] = {1000,"worth"};

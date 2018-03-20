@@ -1,4 +1,4 @@
-class Category_805 {
+class Category_816 {
 	class metal_floor_kit {
 		type = "trade_items";
 		buy[] = {50000,"worth"};
