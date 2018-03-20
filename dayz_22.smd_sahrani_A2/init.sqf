@@ -156,7 +156,7 @@ if (!isDedicated) then {
 		execVM "scripts\zsc\playerHud.sqf";
 		execVM "dayz_code\compile\remote_message.sqf";
 	};
-	
+	[] execVM "custom\markers\marker_1.sqf";
 	// Debug Monitor
 	execVM "Custom\debug_init.sqf";
 	execVM "Custom\custom_monitor.sqf";
