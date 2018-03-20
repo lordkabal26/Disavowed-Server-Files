@@ -22,13 +22,11 @@ LOG_EnterLeave = true;    // This will log to your .rpt when a player enters or 
 /* You can use USE_CANBUILD or/and (works together) the custom positions below (USE_POSITIONS) [position or zone,radius] */
 _infiSZ =
 [
-    [[6325.6772,7807.7412,0],150,true],//stary
-    [[4063.4226,11664.19,0],150,true],//bash
-    [[11447.472,11364.504,0],150,true],//klen
-    [[1606.6443,7803.5156,0],150,true],//bandit
-    [[12944.227,12766.889,0],150,true],//hero
-    [[4361.4937,2259.9526,0],50,true],//wholesalerSouth
-    [[12060,12640,0],200,true]//air dealear
+    [[10273,7382,0],100,true],//Corazol
+    [[14274,12408,41],100,true],//Bagazhar
+    [[17188,13596,40],100,true],//Ixel
+    [[18082,18187,0],50,true],//Black Market
+    [[9911,10010,139],200,true]//air dealear
 ];
 
 {
