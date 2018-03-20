@@ -284,6 +284,11 @@ class Category_808 {
 		buy[] ={300000,"Coins"};
 		sell[] ={150000,"Coins"};
 	};
+	class BTR60_TK_EP1 {
+		type = "trade_any_vehicle";
+		buy[] ={300000,"Coins"};
+		sell[] ={150000,"Coins"};
+	};
 	class PRACS_m577_MHQ {
 		type = "trade_any_vehicle";
 		buy[] ={300000,"Coins"};
