@@ -469,12 +469,7 @@ class Category_814 {
 	type = "trade_weapons";
 	buy[] ={50000,"Coins"};
 	sell[] ={20000,"Coins"};
-	};	
-	class RH_mp7RFX {
-	type = "trade_weapons";
-	buy[] ={50000,"Coins"};
-	sell[] ={20000,"Coins"};
-	};	
+	};		
 	class RH_mp7sdaim {
 	type = "trade_weapons";
 	buy[] ={50000,"Coins"};
