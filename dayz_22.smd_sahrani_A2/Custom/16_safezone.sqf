@@ -15,8 +15,8 @@ USE_TraderCity = false;    //    if you don't want to define your own positions 
 USE_POSITIONS = true;    // to use own positions and radius
 USE_AI_REMOVER = false;    // use this to remove Missionbots (AI) within 100m of a player if the player is in a SafeZone
 USE_AntiSteal = false;    // use this to block opening gear if another player is within 3m!
-USE_SPEEDLIMIT = true;    // very secret function, nobody is supposed to find out what it does.
-    SPEEDLIMIT = 25;        // Only used if USE_SPEEDLIMIT is true.
+USE_SPEEDLIMIT = false;    // very secret function, nobody is supposed to find out what it does.
+    SPEEDLIMIT = 50;        // Only used if USE_SPEEDLIMIT is true.
 USE_SIGNS = false;        // use this to build signs around the SafeZone
 LOG_EnterLeave = true;    // This will log to your .rpt when a player enters or leaves a SafeZone! (only works with infiSTAR.de Admintools / AntiHack)
 /* You can use USE_CANBUILD or/and (works together) the custom positions below (USE_POSITIONS) [position or zone,radius] */
@@ -26,8 +26,8 @@ _infiSZ =
     [[14274,12408,41],100,true],//Bagazhar
     [[17188,13596,40],100,true],//Ixel
     [[18082,18187,0],50,true],//Black Market
-    [[9911,10010,139],200,true]//air dealear
-];
+    [[9911,10010,139],200,true]//Air dealer
+];;
 
 {
 	DZE_SafeZonePosArray set [(count DZE_SafeZonePosArray), [(_x select 0), (_x select 1)]];
