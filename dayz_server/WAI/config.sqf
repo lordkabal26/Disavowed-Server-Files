@@ -182,7 +182,7 @@ if(isServer) then {
 
 		// Missions
 		wai_mission_announce		= "DynamicText";					// Options: "Radio", "DynamicText", "titleText".
-		wai_hero_limit				= 4;								// define how many hero missions can run at once
+		wai_hero_limit				= 8;								// define how many hero missions can run at once
 		wai_bandit_limit			= 0;								// define how many bandit missions can run at once
 
 		wai_hero_missions			= [ 								// ["mission filename",% chance of picking this mission],Make sure the chances add up to 100,or it will not be accurate percentages
