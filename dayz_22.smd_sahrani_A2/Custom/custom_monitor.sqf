@@ -7,7 +7,7 @@
 private["_time","_hours","_minutes","_restartTime"];
 
 /************************* CONFIG *************************/
-    _restartTime = 180; //total time before server restart (3hrs = 180 minutes)    
+    _restartTime = 360; //total time before server restart (3hrs = 180 minutes)    
 /************************* CONFIG *************************/
 
 while {debugMonitor} do {
@@ -35,7 +35,7 @@ _time = (round(_restartTime-(serverTime)/60));     //Want it to count up instead
 	_pic = (gettext (configFile >> 'cfgWeapons' >> (currentWeapon player) >> 'picture'));
 	}else{
 	_pic = (gettext (configFile >> 'CfgVehicles' >> (typeof vehicle player) >> 'picture'));};
-
+	// <t color='#FFCC00' size='1' font='Bitstream' align='left'>BloodType:</t><t color='#FFCC00' size='1' font='Bitstream' align='right'>%12</t><br/>
 	hintSilent parseText format ["
 		<t size='1' font='Bitstream' align='left' color='#FFCC00'>SERVER NAME</t>
 		<br/>
@@ -45,7 +45,6 @@ _time = (round(_restartTime-(serverTime)/60));     //Want it to count up instead
 		<t color='#009FCF' size='1' font='Bitstream' align='left'>Players Online: </t><t color='#ff5200' size='1' font='Bitstream' align='right'>%2</t><br/>
 		<t color='#009FCF' size='1' font='Bitstream' align='left'>FPS: </t><t color='#ff5200' size='1' font='Bitstream' align='right'>%3</t><br/>
 		<t color='#009FCF' size='1' font='Bitstream' align='left'>Blood: </t><t color='#ff5200' size='1' font='Bitstream' align='right'>%4</t><br/>
-		<t color='#FFCC00' size='1' font='Bitstream' align='left'>BloodType:</t><t color='#FFCC00' size='1' font='Bitstream' align='right'>%12</t><br/>
 		<t color='#009FCF' size='1' font='Bitstream' align='left'>Humanity: </t><t color='#ff5200' size='1' font='Bitstream' align='right'>%5</t><br/>
     
 		<br/>
@@ -70,7 +69,7 @@ _time = (round(_restartTime-(serverTime)/60));     //Want it to count up instead
 	_hours, // Used on line 52 to display hours //9
 	_minutes, // Used on line 52 to display minutes //10
 	_pic,//11
-	(player getVariable['blood_type', 0]),//12
+	//(player getVariable['blood_type', 0]),//12
 
 	(round(dayz_hunger)),//13
 	(round(dayz_thirst))//14
