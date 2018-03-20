@@ -169,8 +169,8 @@ menu_HouseWife1 = [
 	"neutral"
 ];
 // Gnomedepot
-menu_GUE_Woodlander2 = [
-	[["Gnomedepot",805],["Currency and gems",1100]],
+menu_Soldier_GL_PMC = [
+	[["Gnomedepot",816],["Currency and gems",1100]],
 	[],
 	"neutral"
 ];
@@ -194,13 +194,13 @@ menu_PRACS_Naval_Crew = [
 ];
 // Hero Rank 2
 menu_SMD_SLA_MP_URBAN = [
-	[["Trucks Armed",806],["Armed Helicopter",807],["Military Armed",808],["FFAA Weapons",809],["FFAA Ammo",810],],
+	[["Trucks Armed",806],["Armed Helicopter",807],["Military Armed",808],["FFAA Weapons",809],["FFAA Ammo",810]],
 	[],
 	"neutral"
 ];
 // Hero Rank 3
 menu_SMD_SLA_SWAT_URBAN = [
-	[["Trucks Armed",811],["Armed Helicopter",812],["Military Armed",813],["SPecial Weapons",814],["Special Ammo",815]],
+	[["Trucks Armed",811],["Armed Helicopter",812],["Military Armed",813],["Special Weapons",814],["Special Ammo",815]],
 	[],
 	"neutral"
 ];
