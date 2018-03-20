@@ -299,4 +299,4 @@ call compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\kk_functio
 #include "mission_check.sqf"
 #include "spawn_config.sqf"
 
-[]execVM "\z\addons\dayz_server\mapaddons\Addon.sqf";
+[] execVM "\z\addons\dayz_server\mapaddons\Addon.sqf";
