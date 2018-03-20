@@ -44,11 +44,6 @@ class Category_805 {
 		buy[] ={100000,"Coins"};
 		sell[] ={50000,"Coins"};
 	};
-	class PRACS_M163 {
-		type = "trade_any_vehicle";
-		buy[] ={100000,"Coins"};
-		sell[] ={50000,"Coins"};
-	};	
 	class GzerosenJ {
 		type = "trade_any_vehicle";
 		buy[] ={200000,"Coins"};

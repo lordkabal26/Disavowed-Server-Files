@@ -9,7 +9,6 @@ class M113Ambul_UN_EP1 {type = "trade_any_vehicle";buy[] ={100000,"Coins"};sell[
 class PRACS_M113_UN { type = "trade_any_vehicle"; buy[] = {1000000,"Coins"}; sell[] = {250000,"Coins"};};
 class AAV { type = "trade_any_vehicle"; buy[] = {5000000,"Coins"}; sell[] = {1000000,"Coins"};};
 class GAZ_Vodnik_HMG {type = "trade_any_vehicle";buy[] ={200000,"Coins"};sell[] ={100000,"Coins"};};
-class PRACS_RB_BRDM2_D { type = "trade_any_vehicle"; buy[] = {1500000,"Coins"}; sell[] = {250000,"Coins"};};
 class PRACS_HMMWV_AUN {type = "trade_any_vehicle";buy[] ={600000,"Coins"};sell[] ={300000,"Coins"};};
 
 };

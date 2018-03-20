@@ -11,4 +11,5 @@ class PRACS_M113_AMB_UN {type = "trade_any_vehicle";buy[] ={600000,"Coins"};sell
 class PRACS_M250_Repair{ type = "trade_any_vehicle"; buy[] = {1000000,"Coins"}; sell[] = {250000,"Coins"};};
 class PRACS_M250_Ammo { type = "trade_any_vehicle"; buy[] = {1000000,"Coins"}; sell[] = {250000,"Coins"};};
 class PRACS_M109_M {type = "trade_any_vehicle";buy[] ={1000000,"Coins"};sell[] ={250000,"Coins"};};
+class PRACS_M163 {type = "trade_any_vehicle";buy[] ={100000,"Coins"};sell[] ={50000,"Coins"};};	
 };
