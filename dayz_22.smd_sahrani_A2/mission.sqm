@@ -100,15 +100,12 @@ class Mission
 		"gq_minigun",
 		"c1987_mp7",
 		"ffaa_armas",
-		"savanna",
-		"daf_ammobox",
-		"daf_m113",
-		"pook_camonets",
 		"rh_smg",
 		"rh_m14",
 		"sportvehicles",
 		"ffs_bf109",
-		"zerosenj"
+		"zerosenj",
+		"recon_bank"
 	};
 	addOnsAuto[]=
 	{
@@ -453,7 +450,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={14274,40,12408};
+			position[]={14273,41,12408};
 			TRGDEF
 			name="zone2";
 			expCond="(player distance zone2) < 100;";
@@ -471,7 +468,7 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={13241,25,11188};
+			position[]={18082,0,18187};
 			TRGDEF
 			name="bmarket";
 			expCond="(player distance bmarket) < 50;";
